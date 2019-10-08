@@ -20,10 +20,10 @@ Gem::Specification.new do |s|
   s.add_dependency 'win32-process', '>= 0.5.5'
   s.add_dependency 'windows-pr', '>= 0.6.6'
   s.add_dependency 'nokogiri', ">= 1.5.7.rc3"
-  s.add_dependency 'ffi', '~>1.0'
-  s.add_dependency 'rautomation', '~>0.7'
+  s.add_dependency 'ffi', '>1.0'
+  s.add_dependency 'rautomation', '>0.7'
   s.add_dependency 'multi_json'
-  s.add_dependency 'win32screenshot', "~> 2.1.0"
+  s.add_dependency 'win32screenshot', ">2.1.0"
 
   s.add_development_dependency("rspec", "~>2.3")
   s.add_development_dependency("syntax")
